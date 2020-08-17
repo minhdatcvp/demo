@@ -1,0 +1,164 @@
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 16px;   
+    }
+    .heading-main-box{
+        transform: translate(-35%,-55%);
+    }
+    .products-section .btn{
+        margin-left: 12%;
+    }
+}
+
+
+@media only screen and (max-width: 1023px){
+    .logo{
+        width: 250px;
+        margin-left: 40px;
+    }
+    .main-nav{
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .main-mav li{
+        margin-right: 10px;
+    }
+    .heading-main-box{
+        transform: translate(-20%,-55%);
+    }
+    .products-section .btn{
+        width: 80%;
+    }
+    .product-box{
+        width: 95%;
+    }
+    h3{
+        font-size: 80%;
+    }
+    .product-box ul li{
+        margin-left: 10%;
+    }
+    .product-price {
+        font-size: 220%;
+    }
+    .products-box .small-icon{
+        margin-right: 5px;
+    }
+    .social-icon li {
+        margin-left: 10px;
+       
+    }
+    form{
+        margin-left: -10%;
+        padding: 0;
+    }
+    input{
+        width: 150px;
+    }
+    textarea{
+        width: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    .row{
+        display: block;
+    }
+    .col{
+        width: 100%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .mobie-nav-icon{
+        display: block;
+    }
+    .logo{
+        width: 350px;
+        margin-left: 15%;
+    }
+    h1{
+        word-spacing: 2px;
+        font-size: 250%;
+    }
+    .heading-main-box{
+        transform: translate(-16%,-55%);
+    }
+    .heading-main-box .btn{
+        width: 15%;
+    }
+    .about-section .row .p-long{
+        font-size: 17px;
+    }
+    .about-picture{
+        text-align: center;
+    }
+    .about-picture img{
+        width: 70%;
+    }
+    .picture-title{
+        font-size: 25px;
+    }
+    .product-box{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .product-box ul li{
+        margin-left: 20%;
+    }
+    .testtimonials-section .row .col{
+        margin-bottom: 50px;
+    }
+    figcaption{
+        visibility: hidden;
+    }
+    .infomation{
+        margin-top: 10px;
+    }
+    .social-icon{
+        margin-top: 0;
+    }
+    .social-icon li{
+        font-size: 200%;
+    }
+    input, textarea{
+        width: 80%;
+        margin-top: 5px;
+    }
+    label{
+        margin-left: 40%;
+    }
+    .contact-section .btn{
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 12px;
+    }
+    .logo{
+        width: 250px;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    h1{
+        font-size: 200%;
+    }
+    .heading-main-box{
+        transform: translate(-10%,-55%);
+    }
+    .heading-main-box .btn{
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 2%;
+    }
+    .mobie-nav-icon{
+        top: 110px;
+    }
+    .sticky .mobie-nav-icon{
+        top: 60px;
+    }
+}
